@@ -47,7 +47,9 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @orange;
+@primaryColor        : @cyracomPurple;
+@globalBackgroundColor  : #FFFFFF;
+@globalForegroundColor  : #FFFFFF;
 
 
 /*-------------------
@@ -71,6 +73,7 @@
 @doveGray         : #666666;
 @dullGreen        : #34a850;
 @paleGray         : #D6D6D6;
+@cyracomPurple      : #4f4d72;
 
 /*-------------------
      Image Sizes
@@ -108,6 +111,13 @@
 @h6 : unit((14 / 14), rem);
 
 @h6SubHeaderFontSize: unit((12 / 14), rem);
+
+/*--------------
+  Page
+---------------*/
+
+@pageBackground : @globalBackgroundColor;
+@lightTextColor : @dustyGray;
 
 /*-------------------
        Links
