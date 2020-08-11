@@ -46,14 +46,12 @@ export const AppFooter: React.FunctionComponent<AppFooterProps> = (
             <Container>
                 <Menu.Item className="copyright">
                     {
-                        copyright
-                            ? copyright
-                            : t("views:footer.copyright", { year: new Date().getFullYear() })
+                        "CyraCom International Inc."
                     }
                 </Menu.Item>
                 <Menu.Menu position="right">
                     <LanguageSwitcher className="footer-dropdown"/>
-                    <Menu.Item className="footer-link" as={ Link } to="/privacy">{ t("common:privacy") }</Menu.Item>
+                    <Menu.Item className="footer-link" href="http://interpret.cyracom.com/cyracom-terms-and-privacy/">{ t("common:privacy") }</Menu.Item>
                 </Menu.Menu>
             </Container>
         </Menu>
